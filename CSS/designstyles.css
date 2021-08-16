@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+.page-title {
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.para {
+    margin-top: -2rem;
+    text-align: center;
+    font-size: 140%;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.maindesign img{
+    margin-top: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.designs-title {
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 6rem;
+}
+.designs-para {
+    margin-top: -2rem;
+    text-align: center;
+    font-size: 140%;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+    margin-left: -2rem;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    margin-left: 2rem;
+  }
+  
+  .column img {
+    margin-bottom: 2rem;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1260px) {
+    .maindesign img{
+        width: 800px;
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    .maindesign img{
+        width: 500px;
+        margin-bottom: -3rem;
+    }
+  }
+
+  @media screen and (max-width: 546px) {
+    .page-title{
+        font-size: 2.4rem;
+    }
+    .designs-title{
+        font-size: 2.4rem;
+    }
+
+    .para{
+        font-size: 1.2rem;
+    }
+
+    .designs-para{
+        font-size: 1.2rem;
+    }
+  }
+  @media screen and (max-width: 525px) {
+    .maindesign img{
+        width: 400px;
+    }
+  }
+  @media screen and (max-width: 435px) {
+    .maindesign img{
+        width: 300px;
+    }
+    .page-title{
+        font-size: 1.6rem;
+    }
+    .designs-title{
+        font-size: 1.6rem;
+    }
+
+    .para{
+        margin-top: -1.2rem;
+        font-size: 1rem;
+    }
+
+    .designs-para{
+        font-size: 1rem;
+        margin-top: -1.2rem;
+    }
+  }

@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+body {
+  background-image: url("../img/mainbg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.title {
+  display: none;
+}
+
+.para {
+  display: none;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: -2.8rem;
+}
+
+.pfpicon {
+  margin-left: 2.8rem;
+  height: 40px;
+}
+
+.hr1 {
+  margin-top: 16.1%;
+  margin-bottom: 4rem;
+  border-width: 0.2rem;
+  background-color: transparent;
+}
+
+.hr2 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-width: 0.2rem;
+  background-color: transparent;
+}
+
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+  width: 70%;
+}
+
+.contact {
+  margin-bottom: 3rem;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 6%;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #333333;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #d3bdff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #9966cc;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.descimg {
+  width: 85%;
+}
+
+.title2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+}
+.para2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: -3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -8rem;
+  margin-top: 6rem;
+}
+
+.item {
+  margin-left: 8rem;
+}
+@media screen and (max-width: 1620px) {
+  .title {
+    margin-top: -0.4rem;
+  }
+  .para {
+    margin-top: -8%;
+  }
+}
+
+@media screen and (max-width: 1384px) {
+  .title2 {
+    text-align: center;
+  }
+  .para2 {
+    text-align: center;
+  }
+  .descimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1465px) {
+  .title {
+    margin-top: -3rem;
+  }
+
+  .para {
+    font-size: 150%;
+    margin-top: -10%;
+  }
+
+  .descimg {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .title {
+    margin-top: -4rem;
+    font-size: 700%;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .title {
+    margin-top: -6rem;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .title {
+    margin-top: -5rem;
+    font-size: 500%;
+  }
+  .logo-container {
+    margin-top: 0rem;
+  }
+  .pfpicon {
+    height: 20px;
+  }
+  .para {
+    font-size: 100%;
+    margin-top: -4.4rem;
+  }
+  .title2 {
+    font-size: 3rem;
+  }
+  .para2 {
+    font-size: 1rem;
+    margin-top: -1.4rem;
+  }
+  .descimg {
+    margin-top: -3rem;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    margin-top: -7rem;
+    font-size: 500%;
+  }
+  .para2 {
+    font-size: 0.8rem;
+  }
+  .descimg {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    margin-top: -6rem;
+    font-size: 350%;
+  }
+
+  .para {
+    margin-top: -3rem;
+    font-size: 80%;
+  }
+  .para2 {
+    font-size: 0.5rem;
+  }
+  .title2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title {
+    margin-top: -6rem;
+    font-size: 250%;
+  }
+  .logo-container {
+    margin-top: 0rem;
+    margin-left: -1.2rem;
+  }
+  .pfpicon {
+    margin-left: 1.2rem;
+  }
+
+  .para {
+    margin-top: -2rem;
+  }
+
+  .descimg {
+    margin-top: -5rem;
+    width: 40%;
+  }
+}

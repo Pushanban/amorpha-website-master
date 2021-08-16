@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+.page-title {
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: -2rem;
+}
+.para {
+    margin-top: -2rem;
+    text-align: center;
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+}
+.box {
+    margin-top: 4rem;
+    position: relative;
+    top : 0;
+    left: 0;
+    margin-left: 3rem;
+    
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 350px;
+    border-radius: 1.4rem;
+    -webkit-box-shadow: 8px 17px 32px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 17px 32px -2px rgba(0,0,0,0.75);
+    box-shadow: 8px 17px 32px -2px rgba(0,0,0,0.75);
+    transition: 0.6s;
+
+}
+
+.image1:hover{
+    -webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+transition: 0.6s;
+
+}
+
+
+.image2 {
+    position: absolute;
+    top: 50px;
+    left: 95px;
+    width: 150px;
+}
+
+.name {
+    position: absolute;
+    top: 195px;
+    left: 103px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+.rank {
+    position: absolute;
+    top: 235px;
+    left: 121px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.container {
+    margin-right: 3rem;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 290px;
+    left: 23px;
+}
+
+.pfpicon {
+    margin-left: 2.8rem;
+}

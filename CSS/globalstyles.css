@@ -1,0 +1,177 @@
+
+body {
+    overflow-x: hidden;
+    background-color: #FAF0F8;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 7px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      border: 0px transparent;
+      background: transparent;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: black ;
+      border-radius: 0px;
+    }
+    
+    ::selection {
+      background: #9966CC;
+      color: white; 
+    }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding: 1rem 1.5rem;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+
+  .nav-logo img {
+      margin-top: 0.5rem;
+      height: 60%;
+  }
+
+  footer {
+    border-top: 2px solid grey;
+    margin-top: 4rem;
+    margin-left: -1em;
+    margin-bottom: -1em;
+    margin-right: -0.5em;
+    text-align: center;
+    padding: 1px;
+    background-color: #eaeaea;
+    color: white;
+  }
+
+  .footergny {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -50rem;
+    padding: 0.4rem;
+  }
+
+  .footer-item{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50rem;
+  }
+
+  .footer-item a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .heart{
+    color: red;
+  }
+  
+  
+  @media only screen and (max-width: 1034px) {
+    .nav-menu {
+        margin-left: -4rem;
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+  
+    .nav-logo img {
+      height: 40%;
+    }
+  
+    .nav-menu.active {
+        left: 0;
+    }
+  
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+  
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+  
+  }
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4rem;
+  }
+  
+  .nav-item {
+    margin-left: 5rem;
+    margin-top: -2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .nav-link:hover{
+    color: #C0A1FF;
+  }
+  
+  .nav-logo {
+    margin-top: -1rem;
+    color: #C0A1FF;
+  }
+  
+  .nav-logo img {
+    max-height: 8rem;
+  }
+  
+  
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  
+  
